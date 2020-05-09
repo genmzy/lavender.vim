@@ -8,35 +8,34 @@ dark                                                                            
 
 [kitty](https://github.com/kovidgoyal/kitty) with `set termguicolors`
 
-[space-vim-dark](https://github.com/liuchengxu/space-vim-dark) is a dark only theme, [space-vim-theme](https://github.com/liuchengxu/space-vim-theme) as its successor now supports both dark and light background. This coloescheme originates from [spacemacs-theme](https://github.com/nashamri/spacemacs-theme) with some alterations.
+[liuchengxu/space-vim-theme](https://github.com/liuchengxu/space-vim-theme) is a greet theme from sapceemacs, [986299679/space-vim-theme](https://github.com/986299679/space-vim-theme) is theme with less perference for bold and italic, just keep bold of javaDocTitle/vimDocTitle and TODOs.
+Besides, I change [liuchengxu/space-vim-theme](https://github.com/liuchengxu/space-vim-theme) background to #282a36, which is also the background color of [snazzy](https://github.com/connorholyday/vim-snazzy) and [dracula](https://github.com/dracula/vim)
 
 ## Installation
 
 Use [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'liuchengxu/space-vim-theme'
+Plug '986299679/space-vim-theme'
+```
+
+```vim
+" Recommand airline_theme, it's color is not my flavor, but this airline theme has strong compatibility for many vim themes.
+let g:airline_theme='lucius'
+set background=dark
+colorscheme space_vim_theme
+" Recommand comment color, but i don't want change the original comment color.
+hi Comment guifg=#5C637f ctermfg=248
 ```
 
 ## Usage
 
 ```vim
 colorscheme space_vim_theme
+
 ```
 
 `:h space_vim_theme` for detailed information.
-
-## Hacking
-
-Do you want to hack the theme?
-
-1. Install [Colortemplate](https://github.com/lifepillar/vim-colortemplate).
-
-2. Edit the files in the `templates` folder.
-
-3. Rebuild the colorscheme by sourcing `make_colorschemes.vim`.
-
-## Credits
 
 - [Colortemplate](https://github.com/lifepillar/vim-colortemplate)
 - `templates` is based on [vim-gruvbox8](https://github.com/lifepillar/vim-gruvbox8)
