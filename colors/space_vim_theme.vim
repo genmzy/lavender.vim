@@ -92,7 +92,8 @@ if &background ==# 'dark'
   hi Error ctermfg=196 ctermbg=235 guifg=#f2241f guibg=#282a36 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi Exception ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Float ctermfg=147 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Function ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  "hi Function ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi! link Function String
   hi Identifier ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Ignore ctermfg=fg ctermbg=NONE guifg=fg guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Include ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
