@@ -1,10 +1,10 @@
 " Name:         Space-vim theme
-" Description:  Light and dark theme inspired by spacemacs-theme
-" Author:       Liu-Cheng Xu <xuliuchengxlc@gmail.com>
-" Maintainer:   Liu-Cheng Xu <xuliuchengxlc@gmail.com>
-" Website:      https://github.com/liuchengxu/space-vim-theme
+" Description:  Changed file from https://github.com/liuchengxu/space-vim-theme
+" Author:       GenmZy_
+" Maintainer:   GenmZy_
+" Website:      https://github.com/986299679/space-vim-theme
 " License:      Vim License (see `:help license`)
-" Last Updated: Mon 25 Mar 2019 05:22:40 PM CST
+" Last Updated: Aug 18 Mar 2020 05:22:40 PM CST
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -83,7 +83,7 @@ if &background ==# 'dark'
   hi WildMenu ctermfg=173 ctermbg=234 guifg=#e18254 guibg=#212026 guisp=NONE cterm=NONE gui=NONE
   hi Boolean ctermfg=166 ctermbg=NONE guifg=#dc752f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Character ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Comment ctermfg=37 ctermbg=NONE guifg=#2aa1ae guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
+  hi Comment ctermfg=37 ctermbg=NONE guifg=#b8b0b0 guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
   hi Conditional ctermfg=32 ctermbg=NONE guifg=#4f97d7 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Constant ctermfg=173 ctermbg=NONE guifg=#e18254 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Define ctermfg=29 ctermbg=NONE guifg=#2d9574 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -93,7 +93,6 @@ if &background ==# 'dark'
   hi Exception ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Float ctermfg=147 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Function ctermfg=170 ctermbg=NONE guifg=#a15ea7 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  "hi Function ctermfg=170 ctermbg=NONE guifg=Orange guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Identifier ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Ignore ctermfg=fg ctermbg=NONE guifg=fg guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Include ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -634,7 +633,7 @@ if &background ==# 'dark'
 endif
 
 let g:terminal_ansi_colors = [
-      \ '#fbf8ef', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#504259',
+      \ '#fafafa', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#504259',
       \ '#a8a4ae', '#f2241f', '#67b11d', '#b1951d', '#3a81c3', '#6c3163', '#24775c', '#655370']
 if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
   hi Normal ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -643,27 +642,27 @@ if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
   hi SignColumn ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi VertSplit ctermfg=255 ctermbg=NONE guifg=#efeae9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 else
-  hi Normal ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi Normal ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi CursorLineNr ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
   hi FoldColumn ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-  hi SignColumn ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi VertSplit ctermfg=255 ctermbg=231 guifg=#efeae9 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi SignColumn ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi VertSplit ctermfg=255 ctermbg=231 guifg=#efeae9 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
 endif
 hi ColorColumn ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
 hi Conceal ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Cursor ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi! link CursorColumn CursorLine
 hi CursorLine ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-hi DiffAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi DiffChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi DiffDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi DiffText ctermfg=136 ctermbg=231 guifg=#b1951d guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi DiffAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi DiffChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi DiffDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi DiffText ctermfg=136 ctermbg=231 guifg=#b1951d guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi Directory ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi EndOfBuffer ctermfg=231 ctermbg=NONE guifg=#fbf8ef guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Error ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi ErrorMsg ctermfg=231 ctermbg=196 guifg=#fbf8ef guibg=#f2241f guisp=NONE cterm=NONE gui=NONE
+hi EndOfBuffer ctermfg=231 ctermbg=NONE guifg=#fafafa guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Error ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi ErrorMsg ctermfg=231 ctermbg=196 guifg=#fafafa guibg=#f2241f guisp=NONE cterm=NONE gui=NONE
 hi Folded ctermfg=53 ctermbg=255 guifg=#4e3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-hi IncSearch ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi IncSearch ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi LineNr ctermfg=146 ctermbg=NONE guifg=#a8a8bf guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi MatchParen ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
 hi ModeMsg ctermfg=184 ctermbg=NONE guifg=#e5d11c guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -676,7 +675,7 @@ hi PmenuThumb ctermfg=NONE ctermbg=189 guifg=NONE guibg=#d3d3e7 guisp=NONE cterm
 hi Question ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi! link QuickFixLine Search
 hi! link qfLineNr Type
-hi Search ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi Search ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi SpecialKey ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpellBad ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
 hi SpellCap ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=#3a81c3 cterm=NONE,underline gui=NONE,undercurl
@@ -696,13 +695,13 @@ hi WarningMsg ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm
 hi WildMenu ctermfg=166 ctermbg=255 guifg=#b46843 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
 hi Boolean ctermfg=166 ctermbg=NONE guifg=#dc752f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Character ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Comment ctermfg=37 ctermbg=NONE guifg=#2aa1ae guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
+hi Comment ctermfg=37 ctermbg=NONE guifg=#b8b0b0 guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
 hi Conditional ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Constant ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Define ctermfg=29 ctermbg=NONE guifg=#24775c guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Debug ctermfg=196 ctermbg=NONE guifg=#f54e3c guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Delimiter ctermfg=73 ctermbg=NONE guifg=#74baac guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Error ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi Error ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi Exception ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Float ctermfg=147 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Function ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -713,7 +712,6 @@ hi Keyword ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NON
 hi Label ctermfg=161 ctermbg=NONE guifg=#ba2f59 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Macro ctermfg=61 ctermbg=NONE guifg=#715ab1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Number ctermfg=176 ctermbg=NONE guifg=#e697e6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-"hi Operator ctermfg=74 ctermbg=NONE guifg=#58b0d9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Operator ctermfg=74 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreCondit ctermfg=53 ctermbg=NONE guifg=#4e3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreProc ctermfg=97 ctermbg=NONE guifg=#86589e guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -749,14 +747,14 @@ if get(g:, "space_vim_italicize_strings", 0)
 endif
 hi! link iCursor Cursor
 hi! link vCursor Cursor
-hi NormalMode ctermfg=237 ctermbg=231 guifg=#463a4e guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi InsertMode ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi ReplaceMode ctermfg=29 ctermbg=231 guifg=#24775c guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi VisualMode ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi CommandMode ctermfg=89 ctermbg=231 guifg=#6c3163 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi Warnings ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fbf8ef guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi NormalMode ctermfg=237 ctermbg=231 guifg=#463a4e guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi InsertMode ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi ReplaceMode ctermfg=29 ctermbg=231 guifg=#24775c guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi VisualMode ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi CommandMode ctermfg=89 ctermbg=231 guifg=#6c3163 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi Warnings ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafafa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 if has('nvim')
-  let g:terminal_color_0  = '#fbf8ef'
+  let g:terminal_color_0  = '#fafafa'
   let g:terminal_color_8  = '#a8a8bf'
   let g:terminal_color_1  = '#d26487'
   let g:terminal_color_9  = '#f2241f'
@@ -785,17 +783,17 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi ALEErrorSign ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi ALEWarningSign ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi ALEInfoSign ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi BufTabLineCurrent ctermfg=231 ctermbg=237 guifg=#fbf8ef guibg=#463a4e guisp=NONE cterm=NONE gui=NONE
+  hi BufTabLineCurrent ctermfg=231 ctermbg=237 guifg=#fafafa guibg=#463a4e guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineActive ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineHidden ctermfg=248 ctermbg=255 guifg=#a8a4ae guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-  hi BufTabLineFill ctermfg=231 ctermbg=231 guifg=#fbf8ef guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi BufTabLineFill ctermfg=231 ctermbg=231 guifg=#fafafa guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi CtrlPMatch ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPNoEntries ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPPrtBase ctermfg=254 ctermbg=NONE guifg=#e3dedd guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPPrtCursor ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPLinePre ctermfg=254 ctermbg=NONE guifg=#e3dedd guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPMode1 ctermfg=32 ctermbg=254 guifg=#3a81c3 guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
-  hi CtrlPMode2 ctermfg=231 ctermbg=32 guifg=#fbf8ef guibg=#3a81c3 guisp=NONE cterm=NONE gui=NONE
+  hi CtrlPMode2 ctermfg=231 ctermbg=32 guifg=#fafafa guibg=#3a81c3 guisp=NONE cterm=NONE gui=NONE
   hi CtrlPStats ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
   hi DirvishPathTail ctermfg=29 ctermbg=NONE guifg=#24775c guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi DirvishArg ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -803,17 +801,17 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi! link EasyMotionShade Comment
   hi gitcommitSelectedFile ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi gitcommitDiscardedFile ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi GitGutterAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi GitGutterChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi GitGutterDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi GitGutterChangeDelete ctermfg=161 ctermbg=231 guifg=#ba2f59 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi GitGutterAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi GitGutterChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi GitGutterDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi GitGutterChangeDelete ctermfg=161 ctermbg=231 guifg=#ba2f59 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   if get(g:, "indent_guides_auto_colors", 0)
     if get(g:, "space_vim_invert_indent_guides", 0)
-      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fbf8ef guibg=#e3dedd guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fbf8ef guibg=#efeae9 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafafa guibg=#e3dedd guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafafa guibg=#efeae9 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
     else
-      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fbf8ef guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
-      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fbf8ef guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafafa guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafafa guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
     endif
   endif
   " IndentLine
@@ -865,17 +863,17 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
 
   let g:niji_dark_colours = g:rbpt_colorpairs
   let g:niji_light_colours = g:rbpt_colorpairs
-  hi ShowMarksHLl ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi ShowMarksHLu ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi ShowMarksHLo ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi ShowMarksHLm ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi ShowMarksHLl ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi ShowMarksHLu ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi ShowMarksHLo ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi ShowMarksHLm ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi SignifySignAdd ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi SignifySignChange ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi SignifySignDelete ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi SignatureMarkText ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi SignatureMarkerText ctermfg=89 ctermbg=231 guifg=#6c3163 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi SignatureMarkText ctermfg=32 ctermbg=231 guifg=#3a81c3 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi SignatureMarkerText ctermfg=89 ctermbg=231 guifg=#6c3163 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi StartifyBracket ctermfg=60 ctermbg=NONE guifg=#504259 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi StartifyFile ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi StartifyFile ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi StartifyNumber ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi StartifyPath ctermfg=61 ctermbg=NONE guifg=#715ab1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi StartifySlash ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -885,8 +883,8 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi StartifyFooter ctermfg=53 ctermbg=NONE guifg=#4e3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi SyntasticError ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
   hi SyntasticWarning ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#b1951d cterm=NONE,underline gui=NONE,undercurl
-  hi SyntasticErrorSign ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi SyntasticWarningSign ctermfg=136 ctermbg=231 guifg=#b1951d guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
+  hi SyntasticErrorSign ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi SyntasticWarningSign ctermfg=136 ctermbg=231 guifg=#b1951d guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
   hi multiple_cursors_cursor ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi multiple_cursors_visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
   hi CurrentWord ctermfg=NONE ctermbg=60 guifg=NONE guibg=#544a65 guisp=NONE cterm=NONE,underline gui=NONE,underline
@@ -898,7 +896,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   let g:vimshell_escape_colors = [
         \ '#a8a4ae', '#f2241f', '#67b11d', '#b1951d',
         \ '#3a81c3', '#6c3163', '#24775c', '#463a4e',
-        \ '#fbf8ef', '#f2241f', '#67b11d', '#b46843',
+        \ '#fafafa', '#f2241f', '#67b11d', '#b46843',
         \ '#3a81c3', '#6c3163', '#24775c', '#83758c'
         \ ]
 endif
@@ -918,12 +916,12 @@ if get(g:, "space_vim_filetype_hi_groups", 1)
   hi htmlSpecialTagName ctermfg=29 ctermbg=NONE guifg=#24775c guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi htmlLink ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
   hi htmlSpecialChar ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi htmlBold ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi htmlBoldUnderline ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE,underline gui=NONE,underline
-  hi htmlBoldItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE gui=NONE
-  hi htmlBoldUnderlineItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE,underline gui=NONE,underline
-  hi htmlUnderline ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE,underline gui=NONE,underline
-  hi htmlUnderlineItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fbf8ef guisp=NONE cterm=NONE,underline gui=NONE,underline
+  hi htmlBold ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi htmlBoldUnderline ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE,underline gui=NONE,underline
+  hi htmlBoldItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE gui=NONE
+  hi htmlBoldUnderlineItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE,underline gui=NONE,underline
+  hi htmlUnderline ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE,underline gui=NONE,underline
+  hi htmlUnderlineItalic ctermfg=fg ctermbg=231 guifg=fg guibg=#fafafa guisp=NONE cterm=NONE,underline gui=NONE,underline
   hi htmlItalic ctermfg=61 ctermbg=NONE guifg=#715ab1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi xmlTag ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi xmlEndTag ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -1828,7 +1826,7 @@ finish
 " jsonBraces                       fg1    none
 " jsonString                       fg1    none
 " Background: light
-" Color: bg0        #fbf8ef ~
+" Color: bg0        #fafafa ~
 " Color: bg1        #efeae9 ~
 " Color: bg2        #e3dedd ~
 " Color: bg3        #d2ceda ~
