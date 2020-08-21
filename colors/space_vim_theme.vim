@@ -784,17 +784,17 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi ALEWarningSign ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi ALEInfoSign ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineCurrent ctermfg=231 ctermbg=237 guifg=#fafaff guibg=#463a4e guisp=NONE cterm=NONE gui=NONE
-  hi BufTabLineActive ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+  hi BufTabLineActive ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineHidden ctermfg=248 ctermbg=255 guifg=#a8a4ae guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineFill ctermfg=231 ctermbg=231 guifg=#fafaff guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi CtrlPMatch ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPNoEntries ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi CtrlPPrtBase ctermfg=254 ctermbg=NONE guifg=#e3dedd guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi CtrlPPrtBase ctermfg=254 ctermbg=NONE guifg=#f1ecfa guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPPrtCursor ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi CtrlPLinePre ctermfg=254 ctermbg=NONE guifg=#e3dedd guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi CtrlPMode1 ctermfg=32 ctermbg=254 guifg=#3a81c3 guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+  hi CtrlPLinePre ctermfg=254 ctermbg=NONE guifg=#f1ecfa guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi CtrlPMode1 ctermfg=32 ctermbg=254 guifg=#3a81c3 guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
   hi CtrlPMode2 ctermfg=231 ctermbg=32 guifg=#fafaff guibg=#3a81c3 guisp=NONE cterm=NONE gui=NONE
-  hi CtrlPStats ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+  hi CtrlPStats ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
   hi DirvishPathTail ctermfg=29 ctermbg=NONE guifg=#24775c guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi DirvishArg ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi! link EasyMotionTarget Search
@@ -807,10 +807,10 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi GitGutterChangeDelete ctermfg=161 ctermbg=231 guifg=#ba2f59 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   if get(g:, "indent_guides_auto_colors", 0)
     if get(g:, "space_vim_invert_indent_guides", 0)
-      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#e3dedd guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#f1ecfa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
       hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#efeae9 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
     else
-      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+      hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
       hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
     endif
   endif
@@ -819,7 +819,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
     let g:indentLine_color_term = 254
   endif
   if !exists('g:indentLine_color_gui')
-    let g:indentLine_color_gui = '#e3dedd'
+    let g:indentLine_color_gui = '#f1ecfa'
   endif
   hi NERDTreeDir ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi NERDTreeDirSlash ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -886,7 +886,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi SyntasticErrorSign ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi SyntasticWarningSign ctermfg=136 ctermbg=231 guifg=#b1951d guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi multiple_cursors_cursor ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi multiple_cursors_visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+  hi multiple_cursors_visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
   hi CurrentWord ctermfg=NONE ctermbg=60 guifg=NONE guibg=#544a65 guisp=NONE cterm=NONE,underline gui=NONE,underline
   hi CurrentWordTwins ctermfg=NONE ctermbg=60 guifg=NONE guibg=#544a65 guisp=NONE cterm=NONE gui=NONE
   hi! link WhichKey Function
@@ -1242,7 +1242,7 @@ if get(g:, "space_vim_filetype_hi_groups", 1)
   hi jsonString ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 endif
 hi StatusLineNC ctermfg=189 ctermbg=255 guifg=#d3d3e7 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-hi Visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#e3dedd guisp=NONE cterm=NONE gui=NONE
+hi Visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
 finish
 
 " Color: neutralred        #d26487    ~
@@ -1828,7 +1828,7 @@ finish
 " Background: light
 " Color: bg0        #fafaff ~
 " Color: bg1        #efeae9 ~
-" Color: bg2        #e3dedd ~
+" Color: bg2        #f1ecfa ~
 " Color: bg3        #d2ceda ~
 " Color: bg4        #a8a4ae ~
 " Color: fg0        #83758c ~
