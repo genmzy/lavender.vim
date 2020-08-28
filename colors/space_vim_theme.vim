@@ -643,7 +643,7 @@ if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
   hi VertSplit ctermfg=255 ctermbg=NONE guifg=#efeae9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 else
   hi Normal ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
-  hi CursorLineNr ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+  hi CursorLineNr ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#fef5ff guisp=NONE cterm=NONE gui=NONE
   hi FoldColumn ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
   hi SignColumn ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi VertSplit ctermfg=255 ctermbg=231 guifg=#efeae9 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
@@ -652,7 +652,7 @@ hi ColorColumn ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cter
 hi Conceal ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Cursor ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi! link CursorColumn CursorLine
-hi CursorLine ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=255 guifg=NONE guibg=#fef5ff guisp=NONE cterm=NONE gui=NONE
 hi DiffAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi DiffChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi DiffDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
