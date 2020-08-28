@@ -640,19 +640,19 @@ if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
   hi CursorLineNr ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi FoldColumn ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi SignColumn ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi VertSplit ctermfg=255 ctermbg=NONE guifg=#efeae9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi VertSplit ctermfg=255 ctermbg=NONE guifg=#e6e1ee guibg=NONE guisp=NONE cterm=NONE gui=NONE
 else
   hi Normal ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
-  hi CursorLineNr ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#fef5ff guisp=NONE cterm=NONE gui=NONE
-  hi FoldColumn ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+  hi CursorLineNr ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
+  hi FoldColumn ctermfg=89 ctermbg=255 guifg=#6c3163 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
   hi SignColumn ctermfg=60 ctermbg=231 guifg=#655370 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
-  hi VertSplit ctermfg=255 ctermbg=231 guifg=#efeae9 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
+  hi VertSplit ctermfg=255 ctermbg=231 guifg=#e6e1ee guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
 endif
-hi ColorColumn ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=255 guifg=NONE guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi Conceal ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Cursor ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi! link CursorColumn CursorLine
-hi CursorLine ctermfg=NONE ctermbg=255 guifg=NONE guibg=#fef5ff guisp=NONE cterm=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=255 guifg=NONE guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi DiffAdd ctermfg=70 ctermbg=231 guifg=#67b11d guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi DiffChange ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi DiffDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
@@ -661,7 +661,7 @@ hi Directory ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=N
 hi EndOfBuffer ctermfg=231 ctermbg=NONE guifg=#fafaff guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Error ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi ErrorMsg ctermfg=231 ctermbg=196 guifg=#fafaff guibg=#f2241f guisp=NONE cterm=NONE gui=NONE
-hi Folded ctermfg=53 ctermbg=255 guifg=#4e3163 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi Folded ctermfg=53 ctermbg=255 guifg=#4e3163 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi IncSearch ctermfg=166 ctermbg=231 guifg=#b46843 guibg=#fafaff guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi LineNr ctermfg=146 ctermbg=NONE guifg=#a8a8bf guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi MatchParen ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
@@ -669,7 +669,7 @@ hi ModeMsg ctermfg=184 ctermbg=NONE guifg=#e5d11c guibg=NONE guisp=NONE cterm=NO
 hi! link MoreMsg ModeMsg
 hi NonText ctermfg=146 ctermbg=NONE guifg=#a8a8bf guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Pmenu ctermfg=103 ctermbg=254 guifg=#8c799f guibg=#e2e0ea guisp=NONE cterm=NONE gui=NONE
-hi PmenuSbar ctermfg=NONE ctermbg=255 guifg=NONE guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=255 guifg=NONE guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=189 guifg=NONE guibg=#c8c6dd guisp=NONE cterm=NONE gui=NONE
 hi PmenuThumb ctermfg=NONE ctermbg=189 guifg=NONE guibg=#d3d3e7 guisp=NONE cterm=NONE gui=NONE
 hi Question ctermfg=166 ctermbg=NONE guifg=#b46843 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -685,14 +685,14 @@ hi StatusLine ctermfg=60 ctermbg=189 guifg=#655370 guibg=#d3d3e7 guisp=NONE cter
 hi StatusLineNC ctermfg=189 ctermbg=248 guifg=#d3d3e7 guibg=#a8a4ae guisp=NONE cterm=NONE gui=NONE
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
-hi TabLineFill ctermfg=60 ctermbg=255 guifg=#544a65 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
-hi TabLineSel ctermfg=70 ctermbg=255 guifg=#67b11d guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi TabLineFill ctermfg=60 ctermbg=255 guifg=#544a65 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
+hi TabLineSel ctermfg=70 ctermbg=255 guifg=#67b11d guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi! link TabLine TabLineFill
 hi Title ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=60 guifg=NONE guibg=#544a65 guisp=NONE cterm=NONE gui=NONE
 hi! link VisualNOS Visual
 hi WarningMsg ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi WildMenu ctermfg=166 ctermbg=255 guifg=#b46843 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi WildMenu ctermfg=166 ctermbg=255 guifg=#b46843 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi Boolean ctermfg=166 ctermbg=NONE guifg=#dc752f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Character ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Comment ctermfg=37 ctermbg=NONE guifg=#b8b0b0 guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
@@ -771,7 +771,7 @@ if has('nvim')
   let g:terminal_color_7  = '#463a4e'
   let g:terminal_color_15 = '#655370'
   hi! link TermCursor Cursor
-  hi TermCursorNC ctermfg=255 ctermbg=60 guifg=#efeae9 guibg=#655370 guisp=NONE cterm=NONE gui=NONE
+  hi TermCursorNC ctermfg=255 ctermbg=60 guifg=#e6e1ee guibg=#655370 guisp=NONE cterm=NONE gui=NONE
 endif
 if !(get(g:, "space_vim_plugin_hi_groups", 1) || get(g:, "space_vim_filetype_hi_groups", 1))
   finish
@@ -785,7 +785,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi ALEInfoSign ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineCurrent ctermfg=231 ctermbg=237 guifg=#fafaff guibg=#463a4e guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineActive ctermfg=237 ctermbg=254 guifg=#463a4e guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
-  hi BufTabLineHidden ctermfg=248 ctermbg=255 guifg=#a8a4ae guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+  hi BufTabLineHidden ctermfg=248 ctermbg=255 guifg=#a8a4ae guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
   hi BufTabLineFill ctermfg=231 ctermbg=231 guifg=#fafaff guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi CtrlPMatch ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CtrlPNoEntries ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -808,10 +808,10 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   if get(g:, "indent_guides_auto_colors", 0)
     if get(g:, "space_vim_invert_indent_guides", 0)
       hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#f1ecfa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#efeae9 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#e6e1ee guisp=NONE cterm=NONE,reverse gui=NONE,reverse
     else
       hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
-      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+      hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
     endif
   endif
   " IndentLine
@@ -1241,7 +1241,7 @@ if get(g:, "space_vim_filetype_hi_groups", 1)
   hi jsonBraces ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi jsonString ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 endif
-hi StatusLineNC ctermfg=189 ctermbg=255 guifg=#d3d3e7 guibg=#efeae9 guisp=NONE cterm=NONE gui=NONE
+hi StatusLineNC ctermfg=189 ctermbg=255 guifg=#d3d3e7 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
 finish
 
@@ -1827,7 +1827,7 @@ finish
 " jsonString                       fg1    none
 " Background: light
 " Color: bg0        #fafaff ~
-" Color: bg1        #efeae9 ~
+" Color: bg1        #e6e1ee ~
 " Color: bg2        #f1ecfa ~
 " Color: bg3        #d2ceda ~
 " Color: bg4        #a8a4ae ~
