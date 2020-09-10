@@ -1242,7 +1242,7 @@ if get(g:, "space_vim_filetype_hi_groups", 1)
   hi jsonString ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 endif
 hi StatusLineNC ctermfg=189 ctermbg=255 guifg=#d3d3e7 guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
-hi Visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#f1ecfa guisp=NONE cterm=NONE gui=NONE
+hi Visual ctermfg=NONE ctermbg=254 guifg=NONE guibg=#e6e1ee guisp=NONE cterm=NONE gui=NONE
 finish
 
 " Color: neutralred        #d26487    ~
