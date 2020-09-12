@@ -11,7 +11,7 @@
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug '986299679/space-vim-theme'
+Plug '986299679/lavender'
 ```
 
 ## Usage
