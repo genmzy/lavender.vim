@@ -1,4 +1,4 @@
-" Name:         Space-vim theme
+" Name:         Lavender
 " Description:  Changed file from https://github.com/liuchengxu/space-vim-theme
 " Author:       GenmZy_
 " Maintainer:   GenmZy_
@@ -8,7 +8,7 @@
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
-  echoerr '[Space-vim theme] There are not enough colors.'
+  echoerr '[Lavender] There are not enough colors.'
   finish
 endif
 
@@ -17,13 +17,13 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'space_vim_theme'
+let g:colors_name = 'lavender'
 
 if &background ==# 'dark'
   let g:terminal_ansi_colors = [
         \ '#282a36', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#727272',
         \ '#34323e', '#f2241f', '#67b11d', '#b1951d', '#4f97d7', '#bc6ec5', '#2d9574', '#b2b2b2']
-  if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
+  if !has('gui_running') && get(g:, 'lavender_transp_bg', 0)
     hi Normal ctermfg=249 ctermbg=NONE guifg=#b2b2b2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi CursorLineNr ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi FoldColumn ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -120,7 +120,7 @@ if &background ==# 'dark'
   hi CursorIM ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi ToolbarLine ctermfg=NONE ctermbg=232 guifg=NONE guibg=#0a0814 guisp=NONE cterm=NONE gui=NONE
   hi ToolbarButton ctermfg=252 ctermbg=232 guifg=#cdcdcd guibg=#0a0814 guisp=NONE cterm=NONE gui=NONE
-  if get(g:, "space_vim_italic", 0)
+  if get(g:, "lavender_italic", 0)
     hi Comment    cterm=italic
     hi Folded     cterm=italic
     hi SpellBad   cterm=italic,underline
@@ -129,7 +129,7 @@ if &background ==# 'dark'
     hi SpellRare  cterm=italic,underline
     hi Todo       cterm=italic
   endif
-  if get(g:, "space_vim_italicize_strings", 0)
+  if get(g:, "lavender_italicize_strings", 0)
     hi Special    cterm=italic gui=italic
     hi String     cterm=italic gui=italic
   endif
@@ -161,10 +161,10 @@ if &background ==# 'dark'
     hi! link TermCursor Cursor
     hi TermCursorNC ctermfg=234 ctermbg=249 guifg=#212026 guibg=#b2b2b2 guisp=NONE cterm=NONE gui=NONE
   endif
-  if !(get(g:, "space_vim_plugin_hi_groups", 1) || get(g:, "space_vim_filetype_hi_groups", 1))
+  if !(get(g:, "lavender_plugin_hi_groups", 1) || get(g:, "lavender_filetype_hi_groups", 1))
     finish
   endif
-  if get(g:, "space_vim_plugin_hi_groups", 1)
+  if get(g:, "lavender_plugin_hi_groups", 1)
     hi ALEError ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
     hi ALEWarning ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
     hi ALEInfo ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#4f97d7 cterm=NONE,underline gui=NONE,undercurl
@@ -194,7 +194,7 @@ if &background ==# 'dark'
     hi GitGutterDelete ctermfg=196 ctermbg=235 guifg=#f2241f guibg=#282a36 guisp=NONE cterm=NONE gui=NONE
     hi GitGutterChangeDelete ctermfg=168 ctermbg=235 guifg=#ce537a guibg=#282a36 guisp=NONE cterm=NONE gui=NONE
     if get(g:, "indent_guides_auto_colors", 0)
-      if get(g:, "space_vim_invert_indent_guides", 0)
+      if get(g:, "lavender_invert_indent_guides", 0)
         hi IndentGuidesOdd ctermfg=235 ctermbg=232 guifg=#282a36 guibg=#100a14 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
         hi IndentGuidesEven ctermfg=235 ctermbg=234 guifg=#282a36 guibg=#212026 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
       else
@@ -288,7 +288,7 @@ if &background ==# 'dark'
           \ '#4f97d7', '#bc6ec5', '#2d9574', '#cdcdcd'
           \ ]
   endif
-  if get(g:, "space_vim_filetype_hi_groups", 1)
+  if get(g:, "lavender_filetype_hi_groups", 1)
     hi diffAdded ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi diffRemoved ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi diffChanged ctermfg=29 ctermbg=NONE guifg=#2d9574 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -635,7 +635,7 @@ endif
 let g:terminal_ansi_colors = [
       \ '#fafaff', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#504259',
       \ '#a8a4ae', '#f2241f', '#67b11d', '#b1951d', '#3a81c3', '#6c3163', '#24775c', '#655370']
-if !has('gui_running') && get(g:, 'space_vim_transp_bg', 0)
+if !has('gui_running') && get(g:, 'lavender_transp_bg', 0)
   hi Normal ctermfg=60 ctermbg=NONE guifg=#655370 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi CursorLineNr ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi FoldColumn ctermfg=89 ctermbg=NONE guifg=#6c3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -732,7 +732,7 @@ hi! link lCursor Cursor
 hi CursorIM ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi ToolbarLine ctermfg=NONE ctermbg=252 guifg=NONE guibg=#d2ceda guisp=NONE cterm=NONE gui=NONE
 hi ToolbarButton ctermfg=103 ctermbg=252 guifg=#83758c guibg=#d2ceda guisp=NONE cterm=NONE gui=NONE
-if get(g:, "space_vim_italic", 0)
+if get(g:, "lavender_italic", 0)
   hi Comment    cterm=italic
   hi Folded     cterm=italic
   hi SpellBad   cterm=italic,underline
@@ -741,7 +741,7 @@ if get(g:, "space_vim_italic", 0)
   hi SpellRare  cterm=italic,underline
   hi Todo       cterm=italic
 endif
-if get(g:, "space_vim_italicize_strings", 0)
+if get(g:, "lavender_italicize_strings", 0)
   hi Special    cterm=italic gui=italic
   hi String     cterm=italic gui=italic
 endif
@@ -773,10 +773,10 @@ if has('nvim')
   hi! link TermCursor Cursor
   hi TermCursorNC ctermfg=255 ctermbg=60 guifg=#e6e1ee guibg=#655370 guisp=NONE cterm=NONE gui=NONE
 endif
-if !(get(g:, "space_vim_plugin_hi_groups", 1) || get(g:, "space_vim_filetype_hi_groups", 1))
+if !(get(g:, "lavender_plugin_hi_groups", 1) || get(g:, "lavender_filetype_hi_groups", 1))
   finish
 endif
-if get(g:, "space_vim_plugin_hi_groups", 1)
+if get(g:, "lavender_plugin_hi_groups", 1)
   hi ALEError ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
   hi ALEWarning ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#f2241f cterm=NONE,underline gui=NONE,undercurl
   hi ALEInfo ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#3a81c3 cterm=NONE,underline gui=NONE,undercurl
@@ -806,7 +806,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
   hi GitGutterDelete ctermfg=196 ctermbg=231 guifg=#f2241f guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   hi GitGutterChangeDelete ctermfg=161 ctermbg=231 guifg=#ba2f59 guibg=#fafaff guisp=NONE cterm=NONE gui=NONE
   if get(g:, "indent_guides_auto_colors", 0)
-    if get(g:, "space_vim_invert_indent_guides", 0)
+    if get(g:, "lavender_invert_indent_guides", 0)
       hi IndentGuidesOdd ctermfg=231 ctermbg=254 guifg=#fafaff guibg=#f1ecfa guisp=NONE cterm=NONE,reverse gui=NONE,reverse
       hi IndentGuidesEven ctermfg=231 ctermbg=255 guifg=#fafaff guibg=#e6e1ee guisp=NONE cterm=NONE,reverse gui=NONE,reverse
     else
@@ -900,7 +900,7 @@ if get(g:, "space_vim_plugin_hi_groups", 1)
         \ '#3a81c3', '#6c3163', '#24775c', '#83758c'
         \ ]
 endif
-if get(g:, "space_vim_filetype_hi_groups", 1)
+if get(g:, "lavender_filetype_hi_groups", 1)
   hi diffAdded ctermfg=70 ctermbg=NONE guifg=#67b11d guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi diffRemoved ctermfg=196 ctermbg=NONE guifg=#f2241f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi diffChanged ctermfg=29 ctermbg=NONE guifg=#24775c guibg=NONE guisp=NONE cterm=NONE gui=NONE
