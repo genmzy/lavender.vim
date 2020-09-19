@@ -83,7 +83,7 @@ if &background ==# 'dark'
   hi WildMenu ctermfg=173 ctermbg=234 guifg=#e18254 guibg=#212026 guisp=NONE cterm=NONE gui=NONE
   hi Boolean ctermfg=166 ctermbg=NONE guifg=#dc752f guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Character ctermfg=170 ctermbg=NONE guifg=#bc6ec5 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Comment ctermfg=37 ctermbg=NONE guifg=#b8b0b0 guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
+  hi Comment ctermfg=37 ctermbg=NONE guifg=#5C637f guibg=NONE guisp=NONE cterm=NONE,none gui=NONE,none
   hi Conditional ctermfg=32 ctermbg=NONE guifg=#4f97d7 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Constant ctermfg=173 ctermbg=NONE guifg=#e18254 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Define ctermfg=29 ctermbg=NONE guifg=#2d9574 guibg=NONE guisp=NONE cterm=NONE gui=NONE
