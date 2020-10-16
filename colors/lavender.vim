@@ -92,7 +92,7 @@ if &background ==# 'dark'
   hi Error ctermfg=196 ctermbg=235 guifg=#bf616a guibg=#282a36 guisp=NONE cterm=NONE,bold,reverse gui=NONE,bold,reverse
   hi Exception ctermfg=196 ctermbg=NONE guifg=#bf616a guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Float ctermfg=147 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Function ctermfg=170 ctermbg=NONE guifg=#a15ea7 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+  hi Function ctermfg=170 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi Identifier ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Ignore ctermfg=fg ctermbg=NONE guifg=fg guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Include ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -100,9 +100,9 @@ if &background ==# 'dark'
   hi Label ctermfg=168 ctermbg=NONE guifg=#ce537a guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Macro ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi Number ctermfg=176 ctermbg=NONE guifg=#e697e6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Operator ctermfg=74 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi Operator ctermfg=74 ctermbg=NONE guifg=#a15ea7 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi PreCondit ctermfg=133 ctermbg=NONE guifg=#a45bad guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi PreProc ctermfg=177 ctermbg=NONE guifg=#d698fe guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi PreProc ctermfg=177 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Repeat ctermfg=168 ctermbg=NONE guifg=#ce537a guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi SpecialChar ctermfg=80 ctermbg=NONE guifg=#28def0 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi SpecialComment ctermfg=67 ctermbg=NONE guifg=#768294 guibg=NONE guisp=NONE cterm=NONE gui=NONE
