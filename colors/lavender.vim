@@ -21,7 +21,7 @@ let g:colors_name = 'lavender'
 
 if &background ==# 'dark'
   let g:terminal_ansi_colors = [
-        \ '#282a36', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#727272',
+        \ '#282a36', '#d26487', '#35a8a5', '#b89f33', '#6981c5', '#a15ea7', '#288668', '#b2b2b2',
         \ '#34323e', '#bf616a', '#67b11d', '#b1951d', '#4f97d7', '#bc6ec5', '#2d9574', '#b2b2b2']
   if !has('gui_running') && get(g:, 'lavender_transp_bg', 0)
     hi Normal ctermfg=249 ctermbg=NONE guifg=#b2b2b2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
