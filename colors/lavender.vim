@@ -156,7 +156,7 @@ if &background ==# 'dark'
     let g:terminal_color_13 = '#bc6ec5'
     let g:terminal_color_6  = '#288668'
     let g:terminal_color_14 = '#2d9574'
-    let g:terminal_color_7  = '#5b5b5b'
+    let g:terminal_color_7  = '#b2b2b2'
     let g:terminal_color_15 = '#b2b2b2'
     hi! link TermCursor Cursor
     hi TermCursorNC ctermfg=234 ctermbg=249 guifg=#212026 guibg=#b2b2b2 guisp=NONE cterm=NONE gui=NONE
