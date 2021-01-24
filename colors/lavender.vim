@@ -92,7 +92,7 @@ if &background ==# 'dark'
   hi Error ctermfg=196 ctermbg=235 guifg=#bf616a guibg=#282a36 guisp=NONE cterm=NONE,bold,reverse gui=NONE,bold,reverse
   hi Exception ctermfg=196 ctermbg=NONE guifg=#bf616a guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Float ctermfg=147 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Function ctermfg=170 ctermbg=NONE guifg=#89abd1 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+  hi Function ctermfg=170 ctermbg=NONE guifg=#a45bad guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi Identifier ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Ignore ctermfg=fg ctermbg=NONE guifg=fg guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Include ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NONE gui=NONE
