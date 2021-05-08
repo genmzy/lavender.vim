@@ -99,7 +99,7 @@ if &background ==# 'dark'
   hi Keyword ctermfg=32 ctermbg=NONE guifg=#4f97d7 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi Label ctermfg=168 ctermbg=NONE guifg=#ce537a guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Macro ctermfg=68 ctermbg=NONE guifg=#7590db guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
-  hi Number ctermfg=176 ctermbg=NONE guifg=#74baac guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi Number ctermfg=176 ctermbg=NONE guifg=#2aa1ae guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Operator ctermfg=74 ctermbg=NONE guifg=#4495b4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi PreCondit ctermfg=133 ctermbg=NONE guifg=#a45bad guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi PreProc ctermfg=177 ctermbg=NONE guifg=#b7b7ff guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -711,7 +711,7 @@ hi Include ctermfg=136 ctermbg=NONE guifg=#b1951d guibg=NONE guisp=NONE cterm=NO
 hi Keyword ctermfg=32 ctermbg=NONE guifg=#3a81c3 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi Label ctermfg=161 ctermbg=NONE guifg=#ba2f59 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Macro ctermfg=61 ctermbg=NONE guifg=#715ab1 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
-hi Number ctermfg=176 ctermbg=NONE guifg=#74baac  guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Number ctermfg=176 ctermbg=NONE guifg=#2aa1ae   guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Operator ctermfg=74 ctermbg=NONE guifg=#58b0d9  guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreCondit ctermfg=53 ctermbg=NONE guifg=#4e3163 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreProc ctermfg=97 ctermbg=NONE guifg=#86589e guibg=NONE guisp=NONE cterm=NONE gui=NONE
